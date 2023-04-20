@@ -3,8 +3,8 @@ import Calc
 def main_menu():
         
         my_cl = Calc.iCalculator() 
-        a = int(input("Введите первое число"))
-        b = int(input("Введите второе число"))
+        a = int(input("Введите первое число: "))
+        b = int(input("Введите второе число: "))
         
         play = True
         while play:
@@ -14,7 +14,7 @@ def main_menu():
                            "-. Вычитание \n"
                            "*. Умножение \n"
                            "/. Деление \n"
-                           "6. Exit\n")
+                           "5. Exit\n")
             match answer:
                 case "+":
                     print(a, "+",b, "=", my_cl.add(a,b))
