@@ -1,3 +1,7 @@
+# Необходимо реализовать свой проект на каком-то другом языке программирования( + прикрепить исходник на Java)
+# Ссылка на 2 е домашнее задание  https://github.com/Garik073/OOPJavaHome2/tree/master/src
+
+
 import Calc      
 
 def main_menu():
@@ -19,11 +23,11 @@ def main_menu():
                 case "+":
                     print(a, "+",b, "=", my_cl.add(a,b))
                 case "-":
-                    print(a, "+",b, "=", my_cl.subtract(a,b))
+                    print(a, "-",b, "=", my_cl.subtract(a,b))
                 case "*":
-                    print(a, "+",b, "=", my_cl.multiply(a,b))
+                    print(a, "*",b, "=", my_cl.multiply(a,b))
                 case "/":
-                    print(a, "+",b, "=", my_cl.div(a,b))
+                    print(a, "/",b, "=", my_cl.div(a,b))
                 case "5":
                     play = False
                 case _:
